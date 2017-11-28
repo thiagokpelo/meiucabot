@@ -1,0 +1,24 @@
+{
+  "name": "hassubot",
+  "version": "0.0.1",
+  "description": "MeiucaBot",
+  "main": "src/server",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.29.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "start": "node src/server",
+    "dev": "node_modules/.bin/nodemon src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "meiuca",
+    "hassubot"
+  ],
+  "author": "Thiago Capelo",
+  "license": "ISC"
+}
