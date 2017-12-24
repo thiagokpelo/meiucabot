@@ -4,6 +4,7 @@
   "description": "MeiucaBot",
   "main": "src/server",
   "dependencies": {
+    "moment": "^2.20.1",
     "node-telegram-bot-api": "^0.29.0"
   },
   "devDependencies": {
